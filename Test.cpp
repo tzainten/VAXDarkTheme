@@ -9,6 +9,12 @@ private:
 	T Integer;
 };
 
+enum MyEnum : int32_t
+{
+	Enum0 = 0,
+	Enum1
+};
+
 int main()
 {
 	std::cout << "Hello World!\n";
